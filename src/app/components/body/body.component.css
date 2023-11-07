@@ -1,0 +1,28 @@
+#cuerpoPrincipal {
+    background-color: #ff032c;
+    border-left:black solid 2px;
+    border-right:black solid 2px;
+    border-bottom:black solid 2px;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marcoGris {
+    background-color: #dfdfdf;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+#pantallaNegra {
+    background-color: #1f1f1f;
+    width: 90%;
+    height: 90%;
+    border: solid black 2px;
+}
