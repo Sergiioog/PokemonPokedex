@@ -47,13 +47,33 @@
     font-size: 1.6rem;
 }
 #tipos {
-    background-color: blue;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
-#alturaCategoriaDiv {
-    
+#alturaCategoriaDiv,#pesoHabilidadDiv {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+#debilidadesBox {
+    height: 55px;
+    width: auto;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#debilidadFuego,#debilidadViento,#debilidadBicho,#debilidadHielo{
+    background-color: rgb(248, 252, 252);
+    height: auto;
+    width: auto;
+    margin-right: 20px;
+    padding: 10px;
 }
