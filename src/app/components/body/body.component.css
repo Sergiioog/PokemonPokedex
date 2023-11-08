@@ -3,11 +3,31 @@
     border-left:black solid 2px;
     border-right:black solid 2px;
     border-bottom:black solid 2px;
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#botonesRojos {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    margin-bottom: 5px;
+    gap: 20px;
+}
+.btnRojo {
+
+    width: 15px; /* Ajusta el ancho según tus necesidades */
+    height: 15px; /* Ajusta el alto según tus necesidades */
+    border-radius: 50%; /* Esto hace que el botón sea circular */
+    border: solid black 2px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: red;
+    margin: 10px;
 }
 
 #marcoGris {
@@ -17,12 +37,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 20px;
     border: solid black 2px;
+    
 }
 #pantallaNegra {
     background-color: #1f1f1f;
     width: 90%;
     height: 90%;
     border: solid black 2px;
+}
+#botonesAbajo {
+    width: 90%;
+}
+#btnRojoAbajo {
+    background-color: red;
+    width:25px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+
+#btnRojoAbajo:hover, .btnRojo:hover {
+    background-color: #e93251;
+    cursor: pointer;
 }

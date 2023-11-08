@@ -63,16 +63,19 @@ header {
 }
 #rojo:hover {
     background-color: rgb(249, 77, 77);
+    cursor: pointer;
 }
 #amarillo {
     background-color: rgb(255, 235, 84);
 }
 #amarillo:hover {
     background-color: #c9bf6e;
+    cursor: pointer;
 }
 #verde {
     background-color: #2eab6f;
 }
 #verde:hover {
     background-color: rgb(132, 255, 91);
+    cursor: pointer;
 }

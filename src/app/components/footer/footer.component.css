@@ -1,0 +1,73 @@
+footer {
+    height: 12vh;
+    width: 100%;
+    background-color: red;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#circuloNegro {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circNegro {
+    background-color: #012a24;
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+#panelPrincipal {
+    background-color: antiquewhite;
+    height: 100%;
+    width: 40%;
+}
+#botonesAzulRojo {
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonRojoDiv {
+    background-color: red;
+    height: 10px;
+    width: 40%;
+    margin-right: 10px;
+    border: solid black 2px;
+    border-radius: 100px;
+}
+#botonAzulDiv {
+    background-color: rgb(47, 0, 255);
+    height: 10px;
+    width: 40%;
+    border: solid black 2px;
+    border-radius: 100px;
+}
+#cruzDiv {
+    background-color: green;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circNegro:hover {
+    background-color: #021e19;
+    cursor: pointer;
+}
+#botonRojoDiv:hover {
+    background-color: rgb(194, 19, 19);
+    cursor: pointer;
+}
+#botonAzulDiv:hover {
+    background-color: rgb(36, 113, 230);
+    cursor: pointer;
+}
