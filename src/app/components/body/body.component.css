@@ -1,8 +1,7 @@
 #cuerpoPrincipal {
     background-color: #ff032c;
-    border-left:black solid 2px;
-    border-right:black solid 2px;
-    border-bottom:black solid 2px;
+    border-left: 2px solid black ;
+    border-right: 2px solid black ;
     height: 75vh;
     width: 100%;
     display: flex;
@@ -39,7 +38,6 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    border: solid black 2px;
     
 }
 #pantallaNegra {
