@@ -1,0 +1,59 @@
+.cardPokemon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.pokeCard {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.imgCabecera {
+    height: 40%; /* Establece una altura fija para el contenedor de la imagen */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenPok {
+    max-width: 100%; /* La imagen se ajustará al ancho máximo del contenedor */
+    max-height: 100%; /* La imagen se ajustará a la altura máxima del contenedor */
+}
+.cuerpoTarjeta {
+    height: 60%;
+    width: 100%;
+}
+#tituloDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+#tituloDiv h1 {
+    font-size: 1.6rem;
+}
+#tipos {
+    background-color: blue;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#alturaCategoriaDiv {
+    
+}
