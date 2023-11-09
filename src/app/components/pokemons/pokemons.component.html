@@ -1,31 +1,31 @@
 <div class="cardPokemon">
-    <div class="pokeCard">
+    <div class="pokeCard" *ngFor="let pokemon of pokemons">
         <div class="imgCabecera">
-            <img class="imagenPok" src="assets/pokemons/Bulbasur.png" alt="Bulbasur png">
+            <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
         </div>
         <div class="cuerpoTarjeta">
             <div id="tituloDiv">
-                <h1>BULBASUR</h1>
+                <h1>{{pokemon.nombre}}</h1>
             </div>
             <div id="tipos">
                 <div class="opciones">
                     <div class="opcion">
                         <h4>Altura</h4>
-                        <p>0,7m</p>
+                        <p>{{pokemon.altura}}</p>
                     </div>
                     <div class="opcion">
                         <h4>Peso</h4>
-                        <p>6,9kg</p>
+                        <p>{{pokemon.peso}}</p>
                     </div>
                 </div>
                 <div class="opciones">
                     <div class="opcion">
                         <h4>Categoría</h4>
-                        <p>Semilla</p>
+                        <p>{{pokemon.categoria}}</p>
                     </div>
                     <div class="opcion">
                         <h4>Tipo</h4>
-                        <p>Planta</p>
+                        <p>{{pokemon.tipo}}</p>
                     </div>
                 </div>
             </div>
