@@ -54,4 +54,4 @@ export class PokemonsComponent {
   }
   
   */
-}
+z}
