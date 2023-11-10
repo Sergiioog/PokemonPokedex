@@ -46,6 +46,7 @@
     height: 85%;
     border: solid black 2px;
     overflow-y: scroll;
+    //Con media cuando mida ej mas de 800 controlo ancho y alto
   
 }
 #botonesAbajo {
