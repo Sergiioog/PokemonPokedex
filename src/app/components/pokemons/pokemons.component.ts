@@ -1,4 +1,5 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
+import {AfterViewInit} from '@angular/core';
 
 @Component({
   selector: 'app-pokemons',
