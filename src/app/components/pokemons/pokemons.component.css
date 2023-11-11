@@ -7,7 +7,7 @@
 }
 
 .pokeCard {
-    width: 310px;
+    width: 310px; /*CAMBIAR A PORCENTAJES CUANDO SE HAGAN MEDIAQUERYS*/
     height: 420px;
     border-radius: 20px;
     margin-bottom: 12%;
@@ -78,34 +78,27 @@
 
 #debilidadesBox {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    overflow-x: auto; /* Utiliza overflow-x: auto para habilitar el scroll horizontal cuando sea necesario */
     white-space: nowrap; /* Evita que los elementos se dividan en varias líneas */
-    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .debilidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(248, 252, 252);
-    height: 30px; /* Altura fija para cada elemento de debilidad */
-    min-width: 70px; /* Ancho mínimo para cada elemento de debilidad */
-    margin-right: 20px;
-    margin-top: 5px;
-    padding: 2px;
+    height: auto; /* Altura fija para cada elemento de debilidad */
+    width: 70px; /* Ancho mínimo para cada elemento de debilidad */
+    margin-right: 5px;
+    margin-left: 5px;
+
+    padding: 5px;
     border-radius: 5px;
+
 }
-#debilidadFuego {
-    background: linear-gradient(to bottom, rgb(248, 133, 17) 40%, red 60%)
-}
-#debilidadViento {
-    background: linear-gradient(to bottom, rgb(173, 226, 244) 40%, rgb(246, 242, 242) 60%)
-}
-#debilidadBicho {
-    background: linear-gradient(to bottom,  rgb(164, 254, 108) 40%, rgb(63, 165, 8) 60%)
-}
-#debilidadHielo {
-    background: linear-gradient(to bottom,rgb(18, 251, 255) 40%,rgb(48, 157, 179) 60%)
-}
+
 
 .pokeCard:hover {
     cursor: pointer;
