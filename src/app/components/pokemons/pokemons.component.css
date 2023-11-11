@@ -4,13 +4,12 @@
     align-items: center;
     margin-top: 5%;
     flex-direction: column;
-   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    flex-wrap: wrap;
 }
 .pokeCard {
-    width: 90%;
-    height: 90%;
+    width: 310px;
+    height: 420px;
     border-radius: 20px;
     background: rgba(89, 187, 8, 0.306);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -113,3 +112,11 @@
     background: linear-gradient(to bottom,rgb(18, 251, 255) 40%,rgb(48, 157, 179) 60%)
 }
 
+
+@media screen and (min-width: 800px) and (max-width: 1400px) {
+    .pokeCard {
+        width: 280px;
+        height: 390px;
+        margin: 10px; /* Agrega un margen entre las tarjetas para separarlas */
+    }
+}

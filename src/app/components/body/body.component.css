@@ -46,7 +46,8 @@
     height: 85%;
     border: solid black 2px;
     overflow-y: scroll;
-    //Con media cuando mida ej mas de 800 controlo ancho y alto
+    
+    /*Con media cuando mida ej mas de 800 controlo ancho y alto*/
   
 }
 #botonesAbajo {
@@ -59,6 +60,10 @@
     margin: 10px;
     border-radius: 50%;
     border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #btnRojoAbajo:hover, .btnRojo:hover {
