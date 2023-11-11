@@ -1,54 +1,43 @@
 <div class="cardPokemon">
-    <div class="pokeCard" *ngFor="let pokemon of pokemons">
-        <div class="imgCabecera">
-            <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
+    <div class="pokeCard" *ngFor="let pokemon of pokemons; let i = index" [ngStyle]="cartasPoke[i]">
+      <div class="imgCabecera">
+        <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
+      </div>
+      <div class="cuerpoTarjeta">
+        <div id="tituloDiv">
+          <h1>{{pokemon.nombre}}</h1>
         </div>
-        <div class="cuerpoTarjeta">
-            <div id="tituloDiv">
-                <h1>{{pokemon.nombre}}</h1>
+        <div id="tipos">
+          <div class="opciones">
+            <div class="opcion">
+              <h4>Altura</h4>
+              <p>{{pokemon.altura}}</p>
             </div>
-            <div id="tipos">
-                <div class="opciones">
-                    <div class="opcion">
-                        <h4>Altura</h4>
-                        <p>{{pokemon.altura}}</p>
-                    </div>
-                    <div class="opcion">
-                        <h4>Peso</h4>
-                        <p>{{pokemon.peso}}</p>
-                    </div>
-                </div>
-                <div class="opciones">
-                    <div class="opcion">
-                        <h4>Categoría</h4>
-                        <p>{{pokemon.categoria}}</p>
-                    </div>
-                    <div class="opcion">
-                        <h4>Tipo</h4>
-                        <p>{{pokemon.tipo}}</p>
-                    </div>
-                </div>
+            <div class="opcion">
+              <h4>Peso</h4>
+              <p>{{pokemon.peso}}</p>
             </div>
-            
-            
-            <div id="debilidades">
-                <h4>Debilidades</h4>
-                <div id="debilidadesBox">
-                    <div class="debilidad" id="debilidadFuego">
-                        FUEGO
-                    </div>
-                    <div class="debilidad" id="debilidadViento">
-                        VIENTO
-                    </div>
-                    <div class="debilidad" id="debilidadBicho">
-                        BICHO
-                    </div>
-                    <div class="debilidad" id="debilidadHielo">
-                        HIELO
-                    </div>
-                </div>
+          </div>
+          <div class="opciones">
+            <div class="opcion">
+              <h4>Categoría</h4>
+              <p>{{pokemon.categoria}}</p>
             </div>
-            
+            <div class="opcion">
+              <h4>Tipo</h4>
+              <p>{{pokemon.tipo}}</p>
+            </div>
+          </div>
         </div>
+        <div id="debilidades">
+          <h4>Debilidades</h4>
+          <div id="debilidadesBox">
+            <div class="debilidad" id="" *ngFor="let debilidad of pokemon.debilidades" [ngClass] = "'debilidad' + 'debilidad'">
+              {{debilidad}}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+  

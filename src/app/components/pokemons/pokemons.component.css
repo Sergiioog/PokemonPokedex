@@ -10,14 +10,10 @@
     width: 310px;
     height: 420px;
     border-radius: 20px;
-    background: rgba(89, 187, 8, 0.306);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10.5px );
-    -webkit-backdrop-filter: blur( 10.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-bottom: 12%;
     margin: 20px;
+    transition: transform 0.2s ease-in-out;
+
 }
 .imgCabecera {
     height: 40%; /* Establece una altura fija para el contenedor de la imagen */
@@ -111,4 +107,7 @@
     background: linear-gradient(to bottom,rgb(18, 251, 255) 40%,rgb(48, 157, 179) 60%)
 }
 
-
+.pokeCard:hover {
+    cursor: pointer;
+    transform: translateY(-10px); /* Ajusta los valores según tus preferencias */
+  }
