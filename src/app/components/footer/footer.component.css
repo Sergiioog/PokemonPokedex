@@ -482,3 +482,125 @@ footer {
         cursor: pointer;
     }
 }
+@media screen and (min-width: 1440px) {
+    footer {
+        height: 12vh;
+        width: 100%;
+        background-color: #ff032c;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid black 3px;
+    
+    }
+    #circuloNegro {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #circNegro {
+        background-color: #012a24;
+        height:80px;
+        width:80px;
+        margin-top: 5px;
+        border-radius: 50%;
+        border: solid black 2px;
+        
+    }
+    #panelPrincipal {
+        height: 100%;
+        width: 60%;
+    }
+    #botonesAzulRojo {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #botonRojoDiv {
+        background-color: red;
+        height: 15px;
+        width: 22%;
+        margin-right: 10px;
+        border: solid black 2px;
+        border-radius: 100px;
+    }
+    #botonAzulDiv {
+        background-color: rgb(47, 0, 255);
+        height: 15px;
+        width: 22%;
+        border: solid black 2px;
+        border-radius: 100px;
+    }
+    #panelVerde {
+    
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #panVerde {
+        background-color: #02b059;
+        width: 30%;
+        height: 100%;
+        border: solid black 2px;
+    
+        
+    }
+    #cruzDiv {
+        height: 100%; 
+        width: 30%; 
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: relative;
+    }
+    
+    #flecha::before,
+    #flecha::after {
+        content: '';
+        position: absolute;
+        background-color: #012a24; /* Cambia el color según tus necesidades */
+        border: 2px solid black;
+    }
+    
+    #flecha::before {
+        width: 25%;
+        height: 25%;
+        top: 40%;
+        left: 25%;
+        border: 2px solid black;
+    }
+    
+    #flecha::after {
+        width: 7%;
+        height: 65%;
+        top: 20%;
+        left: 34%;
+        border: 2px solid black;
+    }
+    #circNegro:hover {
+        background-color: #021e19;
+        cursor: pointer;
+    }
+    #botonRojoDiv:hover {
+        background-color: rgb(194, 19, 19);
+        cursor: pointer;
+    }
+    #botonAzulDiv:hover {
+        background-color: rgb(36, 113, 230);
+        cursor: pointer;
+    }
+    #panVerde:hover {
+        background-color: rgb(27, 216, 27);
+        cursor: pointer;
+    }
+}
