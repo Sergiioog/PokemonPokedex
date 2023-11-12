@@ -13,9 +13,7 @@ header {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin: 30px;
-   
-    
+    margin: 30px; 
 }
 #botonAzul {
     background-color:#fefaf2;
@@ -25,10 +23,8 @@ header {
     border: 4px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
-  
+    align-items: center; 
 }
-
 #btnBlue {
     background-color: #00dbfe;
     border-radius: 50%;
@@ -39,7 +35,6 @@ header {
     justify-content: start;
     align-items: center;
 }
-
 #botonesColores {
     height: 100%;
     width: 55%;
@@ -47,7 +42,6 @@ header {
     display: flex;
     justify-content: start;
     align-items: start;
-
 }
 .botonColor {
     height: 20px;
@@ -55,8 +49,7 @@ header {
     border-radius: 50%;
     margin: 5px;
     margin-top: 10px;
-    border: black solid 4px;
-    
+    border: black solid 4px; 
 }
 #rojo {
     background-color: red;
@@ -79,214 +72,75 @@ header {
     background-color: rgb(132, 255, 91);
     cursor: pointer;
 }
-
 /*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
-    
     #botones {
-        height: 100%;
         width: 40%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 30px;
     }
-    #botonAzul {
-        background-color:#fefaf2;
+    #botonAzul {  
         height: 9.5vh;
         width: 9.5vh;
-        border-radius: 50%;
-        border: 4px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      
     }
-    
-    #btnBlue {
-        background-color: #00dbfe;
-        border-radius: 50%;
-        border: 4px solid black;
+    #btnBlue { 
         width: 7.5vh; 
         height: 7.5vh; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
     }
-    
-    #botonesColores {
-        height: 100%;
+    #botonesColores {        
         width: 60%;
-        margin: auto;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-    
     }
     .botonColor {
         height: 22px;
-        width: 22px;
-        border-radius: 50%;
-        margin: 5px;
-        margin-top: 10px;
-        border: black solid 4px;
-        
-    }
-   
+        width: 22px;   
+    }  
 }
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     #botones {
-        height: 100%;
-        width: 35%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 30px;
+        width: 35%;      
     }
     #botonAzul {
-        background-color:#fefaf2;
         height: 10vh;
-        width: 10vh;
-        border-radius: 50%;
-        border: 4px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      
+        width: 10vh;      
     }
-    
     #btnBlue {
-        background-color: #00dbfe;
-        border-radius: 50%;
-        border: 4px solid black;
         width: 8vh; 
         height: 8vh; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    
-    #botonesColores {
-        height: 100%;
-        width: 60%;
-        margin: auto;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-    
     }
     .botonColor {
         height: 23px;
-        width: 23px;
-        border-radius: 50%;
-        margin: 5px;
-        margin-top: 10px;
-        border: black solid 4px;
-        
+        width: 23px; 
     }
 }
-
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     #botones {
-        height: 100%;
         width: 30%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 30px;
     }
     #botonAzul {
-        background-color:#fefaf2;
         height: 11vh;
         width: 11vh;
-        border-radius: 50%;
-        border: 4px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      
     }
-    
     #btnBlue {
-        background-color: #00dbfe;
-        border-radius: 50%;
-        border: 4px solid black;
         width: 9vh; 
         height: 9vh; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    
-    #botonesColores {
-        height: 100%;
-        width: 60%;
-        margin: auto;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-    
     }
     .botonColor {
         height: 24px;
         width: 24px;
-        border-radius: 50%;
-        margin: 5px;
-        margin-top: 10px;
-        border: black solid 4px;
-        
     }
 }
-
 @media screen and (min-width: 1440px) {
     #botones {
-        height: 100%;
         width: 20%;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        margin: 30px;
     }
     #botonAzul {
-        background-color:#fefaf2;
         height: 11vh;
         width: 11vh;
-        border-radius: 50%;
-        border: 4px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      
     }
-    
     #btnBlue {
-        background-color: #00dbfe;
-        border-radius: 50%;
-        border: 4px solid black;
         width: 9vh; 
         height: 9vh; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    
-    #botonesColores {
-        height: 100%;
-        width: 60%;
-        margin: auto;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-    
     }
     .botonColor {
         height: 30px;
-        width: 30px;
-        border-radius: 50%;
-        margin: 5px;
-        margin-top: 10px;
-        border: black solid 4px;
-        
+        width: 30px; 
     }
 }
