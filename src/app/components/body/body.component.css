@@ -20,11 +20,11 @@
 }
 .btnRojo {
 
-    width: 15px; /* Ajusta el ancho según tus necesidades */
-    height: 15px; /* Ajusta el alto según tus necesidades */
-    border-radius: 50%; /* Esto hace que el botón sea circular */
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
     border: solid black 2px;
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    cursor: pointer; 
     background-color: red;
     margin: 10px;
 }
@@ -46,8 +46,6 @@
     height: 85%;
     border: solid black 2px;
     overflow-y: scroll;
-    
-    /*Con media cuando mida ej mas de 800 controlo ancho y alto*/
   
 }
 #botonesAbajo {
@@ -70,6 +68,8 @@
     background-color: #e93251;
     cursor: pointer;
 }
+
+/*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
     #cuerpoPrincipal {
         background-color: #ff032c;

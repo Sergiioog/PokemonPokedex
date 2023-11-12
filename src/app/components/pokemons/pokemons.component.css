@@ -3,11 +3,11 @@
     align-items: center;
     justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Wrap para que se vayan agrupando las tarjetas en funcion del tamaño de la pantalla*/
 }
 
 .pokeCard {
-    width: 300px; /*CAMBIAR A PORCENTAJES CUANDO SE HAGAN MEDIAQUERYS*/
+    width: 300px; 
     height: 420px;
     border-radius: 20px;
     margin-bottom: 12%;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 .imgCabecera {
-    height: 100%; /* Establece una altura fija para el contenedor de la imagen */
+    height: 100%; 
     width: 90%;
     display: flex;
     justify-content: center;
@@ -34,9 +34,9 @@
 .idDiv {
     width: auto;
     height: auto;
-    position: fixed; /* Se fija la posición con respecto a la ventana del navegador */
-    top: 0; /* La distancia desde la parte superior es 0 para estar arriba del todo */
-    right: 0; /* La distancia desde la derecha es 0 para estar a la derecha */
+    position: fixed; 
+    top: 0;
+    right: 0; 
     margin-right: 10px;
     font-size: 20px;
     font-weight: bolder;
@@ -44,8 +44,8 @@
 
 
 .imagenPok {
-    max-width: 100%; /* La imagen se ajustará al ancho máximo del contenedor */
-    max-height: 100%; /* La imagen se ajustará a la altura máxima del contenedor */
+    max-width: 100%; 
+    max-height: 100%; 
 }
 .cuerpoTarjeta {
     height: 60%;
@@ -98,10 +98,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    white-space: nowrap; /* Evita que los elementos se dividan en varias líneas */
+    white-space: nowrap; 
     margin-top: 5px;
     width: 100%;
-    overflow-x: auto; /* Permite hacer scroll horizontal si es necesario */
+    overflow-x: auto; 
     margin: auto;
     margin-top: 5px;
 }
@@ -112,12 +112,12 @@
     justify-content: center;
     align-items: center;
     background: rgba( 35, 32, 32, 0.25 );
-backdrop-filter: blur( 3.5px );
--webkit-backdrop-filter: blur( 3.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-    height: auto; /* Altura fija para cada elemento de debilidad */
-    width: auto; /* Ancho mínimo para cada elemento de debilidad */
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: auto; 
+    width: auto;
     margin-right: 5px;
     margin-left: 5px;
     padding: 5px;
@@ -128,5 +128,5 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .pokeCard:hover {
     cursor: pointer;
-    transform: translateY(-10px); /* Ajusta los valores según tus preferencias */
+    transform: translateY(-10px); 
   }

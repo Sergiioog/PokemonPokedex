@@ -1,5 +1,6 @@
 <div class="cardPokemon">
     <div class="pokeCard" *ngFor="let pokemon of pokemons; let i = index" [ngStyle]="cartasPoke[i]">
+      <!--*ngFor que va sacando los pokemons del array de pokemon y ngStyle para controlar el color de las cards-->
       <div id="cab">
         <div class="imgCabecera">
           <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
@@ -38,7 +39,8 @@
         <div id="debilidades">
           <h4>Debilidades</h4>
           <div id="debilidadesBox">
-            <div class="debilidad" id="" *ngFor="let debilidad of pokemon.debilidades" [ngClass] = "'debilidad' + 'debilidad'">
+            <div class="debilidad" id="" *ngFor="let debilidad of pokemon.debilidades" [ngClass] = "'debilidad'">
+              <!--Utiliza la directiva [ngClass] para aplicar dinámicamente clases adicionales al elemento <div>-->
               {{debilidad}}
             </div>
           </div>

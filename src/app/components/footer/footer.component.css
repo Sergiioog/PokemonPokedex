@@ -66,8 +66,8 @@ footer {
     
 }
 #cruzDiv {
-    height: 100%; /* Ajusta la altura según tus necesidades */
-    width: 30%; /* Ajusta el ancho según tus necesidades */
+    height: 100%; 
+    width: 30%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +79,7 @@ footer {
 #flecha::after {
     content: '';
     position: absolute;
-    background-color: #012a24; /* Cambia el color según tus necesidades */
+    background-color: #012a24; 
     border: 2px solid black;
 }
 
@@ -114,7 +114,7 @@ footer {
     background-color: rgb(27, 216, 27);
     cursor: pointer;
 }
-
+/*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
     footer {
         height: 12vh;
@@ -198,7 +198,7 @@ footer {
     #flecha::after {
         content: '';
         position: absolute;
-        background-color: #012a24; /* Cambia el color según tus necesidades */
+        background-color: #012a24;
         border: 2px solid black;
     }
     
@@ -322,7 +322,7 @@ footer {
     #flecha::after {
         content: '';
         position: absolute;
-        background-color: #012a24; /* Cambia el color según tus necesidades */
+        background-color: #012a24; 
         border: 2px solid black;
     }
     
@@ -446,7 +446,7 @@ footer {
     #flecha::after {
         content: '';
         position: absolute;
-        background-color: #012a24; /* Cambia el color según tus necesidades */
+        background-color: #012a24;
         border: 2px solid black;
     }
     
@@ -568,7 +568,7 @@ footer {
     #flecha::after {
         content: '';
         position: absolute;
-        background-color: #012a24; /* Cambia el color según tus necesidades */
+        background-color: #012a24; 
         border: 2px solid black;
     }
     

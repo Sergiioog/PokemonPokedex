@@ -33,8 +33,8 @@ header {
     background-color: #00dbfe;
     border-radius: 50%;
     border: 4px solid black;
-    width: 7vh; /* Ancho igual a la altura para hacer un círculo perfecto */
-    height: 7vh; /* Establecer la altura para que sea igual al ancho */
+    width: 7vh; 
+    height: 7vh; 
     display: flex;
     justify-content: start;
     align-items: center;
@@ -80,6 +80,7 @@ header {
     cursor: pointer;
 }
 
+/*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
     
     #botones {
