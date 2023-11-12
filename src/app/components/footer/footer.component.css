@@ -116,17 +116,7 @@ footer {
 }
 /*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
-    footer {
-        height: 12vh;
-        width: 100%;
-        background-color: #ff032c;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid black 3px;
-    
-    }
+ 
     #circuloNegro {
         height: 100%;
         width: 30%;
@@ -142,18 +132,8 @@ footer {
         border-radius: 50%;
         border: solid black 2px;
     }
-    #panelPrincipal {
-        height: 100%;
-        width: 60%;
-    }
-    #botonesAzulRojo {
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+  
+   
     #botonRojoDiv {
         background-color: red;
         height: 11px;
@@ -176,14 +156,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #panVerde {
-        background-color: #02b059;
-        width: 60%;
-        height: 100%;
-        border: solid black 2px;
-    
-        
-    }
+
     #cruzDiv {
         height: 100%; 
         width: 30%; 
@@ -194,13 +167,8 @@ footer {
         
     }
     
-    #flecha::before,
-    #flecha::after {
-        content: '';
-        position: absolute;
-        background-color: #012a24;
-        border: 2px solid black;
-    }
+  
+    
     
     #flecha::before {
         width: 50%;
@@ -217,37 +185,12 @@ footer {
         left: 40%;
         border: 2px solid black;
     }
-    #circNegro:hover {
-        background-color: #021e19;
-        cursor: pointer;
-    }
-    #botonRojoDiv:hover {
-        background-color: rgb(194, 19, 19);
-        cursor: pointer;
-    }
-    #botonAzulDiv:hover {
-        background-color: rgb(36, 113, 230);
-        cursor: pointer;
-    }
-    #panVerde:hover {
-        background-color: rgb(27, 216, 27);
-        cursor: pointer;
-    }
+
     
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    footer {
-        height: 12vh;
-        width: 100%;
-        background-color: #ff032c;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid black 3px;
-    
-    }
+   
     #circuloNegro {
         height: 100%;
         width: 30%;
@@ -267,18 +210,8 @@ footer {
         border: solid black 2px;
         
     }
-    #panelPrincipal {
-        height: 100%;
-        width: 60%;
-    }
-    #botonesAzulRojo {
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+   
+  
     #botonRojoDiv {
         background-color: red;
         height: 12px;
@@ -301,14 +234,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #panVerde {
-        background-color: #02b059;
-        width: 50%;
-        height: 100%;
-        border: solid black 2px;
-    
-        
-    }
+ 
     #cruzDiv {
         height: 100%; 
         width: 30%; 
@@ -318,13 +244,8 @@ footer {
         position: relative;
     }
     
-    #flecha::before,
-    #flecha::after {
-        content: '';
-        position: absolute;
-        background-color: #012a24; 
-        border: 2px solid black;
-    }
+  
+    
     
     #flecha::before {
         width: 35%;
@@ -341,37 +262,12 @@ footer {
         left: 35%;
         border: 2px solid black;
     }
-    #circNegro:hover {
-        background-color: #021e19;
-        cursor: pointer;
-    }
-    #botonRojoDiv:hover {
-        background-color: rgb(194, 19, 19);
-        cursor: pointer;
-    }
-    #botonAzulDiv:hover {
-        background-color: rgb(36, 113, 230);
-        cursor: pointer;
-    }
-    #panVerde:hover {
-        background-color: rgb(27, 216, 27);
-        cursor: pointer;
-    }
+  
     
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    footer {
-        height: 12vh;
-        width: 100%;
-        background-color: #ff032c;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid black 3px;
-    
-    }
+   
     #circuloNegro {
         height: 100%;
         width: 30%;
@@ -395,14 +291,7 @@ footer {
         height: 100%;
         width: 60%;
     }
-    #botonesAzulRojo {
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+   
     #botonRojoDiv {
         background-color: red;
         height: 13px;
@@ -425,14 +314,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #panVerde {
-        background-color: #02b059;
-        width: 40%;
-        height: 100%;
-        border: solid black 2px;
-    
-        
-    }
+   
     #cruzDiv {
         height: 100%; 
         width: 30%; 
@@ -442,13 +324,7 @@ footer {
         position: relative;
     }
     
-    #flecha::before,
-    #flecha::after {
-        content: '';
-        position: absolute;
-        background-color: #012a24;
-        border: 2px solid black;
-    }
+ 
     
     #flecha::before {
         width: 25%;
@@ -465,35 +341,10 @@ footer {
         left: 34%;
         border: 2px solid black;
     }
-    #circNegro:hover {
-        background-color: #021e19;
-        cursor: pointer;
-    }
-    #botonRojoDiv:hover {
-        background-color: rgb(194, 19, 19);
-        cursor: pointer;
-    }
-    #botonAzulDiv:hover {
-        background-color: rgb(36, 113, 230);
-        cursor: pointer;
-    }
-    #panVerde:hover {
-        background-color: rgb(27, 216, 27);
-        cursor: pointer;
-    }
+  
 }
 @media screen and (min-width: 1440px) {
-    footer {
-        height: 12vh;
-        width: 100%;
-        background-color: #ff032c;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: solid black 3px;
-    
-    }
+   
     #circuloNegro {
         height: 100%;
         width: 30%;
@@ -517,14 +368,7 @@ footer {
         height: 100%;
         width: 60%;
     }
-    #botonesAzulRojo {
-        width: 100%;
-        height: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
+
     #botonRojoDiv {
         background-color: red;
         height: 15px;
@@ -547,14 +391,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    #panVerde {
-        background-color: #02b059;
-        width: 30%;
-        height: 100%;
-        border: solid black 2px;
     
-        
-    }
     #cruzDiv {
         height: 100%; 
         width: 30%; 
@@ -564,13 +401,7 @@ footer {
         position: relative;
     }
     
-    #flecha::before,
-    #flecha::after {
-        content: '';
-        position: absolute;
-        background-color: #012a24; 
-        border: 2px solid black;
-    }
+
     
     #flecha::before {
         width: 25%;
@@ -587,20 +418,5 @@ footer {
         left: 34%;
         border: 2px solid black;
     }
-    #circNegro:hover {
-        background-color: #021e19;
-        cursor: pointer;
-    }
-    #botonRojoDiv:hover {
-        background-color: rgb(194, 19, 19);
-        cursor: pointer;
-    }
-    #botonAzulDiv:hover {
-        background-color: rgb(36, 113, 230);
-        cursor: pointer;
-    }
-    #panVerde:hover {
-        background-color: rgb(27, 216, 27);
-        cursor: pointer;
-    }
+  
 }
