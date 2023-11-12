@@ -60,6 +60,7 @@ export class PokemonsComponent {
         'background': 'white',
       },
     };
+
     /*------Array de Pokemons------*/
 
     /*------Array para elegir el color de las cards------*/
