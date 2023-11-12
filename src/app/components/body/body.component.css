@@ -19,7 +19,6 @@
     gap: 20px;
 }
 .btnRojo {
-
     width: 15px; 
     height: 15px; 
     border-radius: 50%; 
@@ -38,7 +37,6 @@
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    
 }
 #pantallaNegra {
     background-color: #1f1f1f;
@@ -46,7 +44,6 @@
     height: 85%;
     border: solid black 2px;
     overflow-y: scroll;
-  
 }
 #botonesAbajo {
     width: 90%;
@@ -71,291 +68,55 @@
 
 /*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
-    #cuerpoPrincipal {
-        background-color: #ff032c;
-        border-left: 2px solid black ;
-        border-right: 2px solid black ;
-        height: 75vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #botonesRojos {
-        width: 90%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1px;
-        margin-bottom: 5px;
-        gap: 20px;
-    }
-    .btnRojo {
+    .btnRojo {        
         width: 18px; 
         height: 18px; 
-        border-radius: 50%; 
-        border: solid black 2px;
-        cursor: pointer; 
-        background-color: red;
-        margin: 10px;
     }
-    
     #marcoGris {
-        background-color: #dfdfdf;
-        width: 90%;
         max-width: 550px;
-        height: 95%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 20px;
-        
-    }
-    #pantallaNegra {
-        background-color: #1f1f1f;
-        width: 90%;
-        height: 85%;
-        border: solid black 2px;
-        overflow-y: scroll;
-              
-    }
-    #botonesAbajo {
-        width: 90%;
     }
     #btnRojoAbajo {
-        background-color: red;
         width:30px;
         height: 30px;
-        margin: 10px;
-        border-radius: 50%;
-        border: solid black 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    #btnRojoAbajo:hover, .btnRojo:hover {
-        background-color: #e93251;
-        cursor: pointer;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    #cuerpoPrincipal {
-        background-color: #ff032c;
-        border-left: 2px solid black ;
-        border-right: 2px solid black ;
-        height: 75vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #botonesRojos {
-        width: 90%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1px;
-        margin-bottom: 5px;
-        gap: 20px;
-    }
     .btnRojo {
         width: 20px; 
         height: 20px; 
-        border-radius: 50%; 
-        border: solid black 2px;
-        cursor: pointer; 
-        background-color: red;
-        margin: 10px;
     }
-    
     #marcoGris {
-        background-color: #dfdfdf;
-        width: 90%;
         max-width: 850px;
-        height: 95%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 20px;
-        
-    }
-    #pantallaNegra {
-        background-color: #1f1f1f;
-        width: 90%;
-        height: 85%;
-        border: solid black 2px;
-        overflow-y: scroll;
-              
-    }
-    #botonesAbajo {
-        width: 90%;
     }
     #btnRojoAbajo {
-        background-color: red;
         width:35px;
         height: 35px;
-        margin: 10px;
-        border-radius: 50%;
-        border: solid black 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    #btnRojoAbajo:hover, .btnRojo:hover {
-        background-color: #e93251;
-        cursor: pointer;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-    #cuerpoPrincipal {
-        background-color: #ff032c;
-        border-left: 2px solid black ;
-        border-right: 2px solid black ;
-        height: 75vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #botonesRojos {
-        width: 90%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1px;
-        margin-bottom: 5px;
-        gap: 20px;
-    }
     .btnRojo {
         width: 22px; 
         height: 22px; 
-        border-radius: 50%; 
-        border: solid black 2px;
-        cursor: pointer; 
-        background-color: red;
-        margin: 10px;
-    }
-    
+    }    
     #marcoGris {
-        background-color: #dfdfdf;
-        width: 90%;
         max-width: 1200px;
-        height: 95%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 20px;
-        
-    }
-    #pantallaNegra {
-        background-color: #1f1f1f;
-        width: 90%;
-        height: 85%;
-        border: solid black 2px;
-        overflow-y: scroll;
-              
-    }
-    #botonesAbajo {
-        width: 90%;
     }
     #btnRojoAbajo {
-        background-color: red;
         width:38px;
         height: 38px;
-        margin: 10px;
-        border-radius: 50%;
-        border: solid black 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    #btnRojoAbajo:hover, .btnRojo:hover {
-        background-color: #e93251;
-        cursor: pointer;
     }
 }
 @media screen and (min-width: 1440px) {
-     #cuerpoPrincipal {
-        background-color: #ff032c;
-        border-left: 2px solid black ;
-        border-right: 2px solid black ;
-        height: 75vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #botonesRojos {
-        width: 90%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 1px;
-        margin-bottom: 5px;
-        gap: 20px;
-    }
     .btnRojo {
         width: 25px; 
         height: 25px; 
-        border-radius: 50%; 
-        border: solid black 2px;
-        cursor: pointer; 
-        background-color: red;
-        margin: 10px;
     }
-    
     #marcoGris {
-        background-color: #dfdfdf;
-        width: 90%;
         max-width: 1500px;
-        height: 95%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-radius: 20px;
-        
-    }
-    #pantallaNegra {
-        background-color: #1f1f1f;
-        width: 90%;
-        height: 85%;
-        border: solid black 2px;
-        overflow-y: scroll;
-              
-    }
-    #botonesAbajo {
-        width: 90%;
     }
     #btnRojoAbajo {
-        background-color: red;
         width:40px;
         height: 40px;
-        margin: 10px;
-        border-radius: 50%;
-        border: solid black 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    
-    #btnRojoAbajo:hover, .btnRojo:hover {
-        background-color: #e93251;
-        cursor: pointer;
     }
 }
