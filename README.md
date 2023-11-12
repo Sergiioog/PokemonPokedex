@@ -76,3 +76,5 @@ PokemonPokedex es una aplicación web desarrollada en Angular que proporciona in
 
 ¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes ideas para mejorar la aplicación, no dudes en abrir un problema o enviar una solicitud de extracción.
 
+![Bulbasur](assets/pokemons/Bulbasur.png)
+
