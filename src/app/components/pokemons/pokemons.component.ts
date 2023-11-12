@@ -14,52 +14,46 @@ export class PokemonsComponent {
 
 
     /*------Array de Pokemons------*/
+    
     this.pokemons = [
       { imagen: "assets/pokemons/Bulbasur.png", descripcionImg: "Bulbasur img",
-        nombre: 'Bulbasur', altura: '0,7m', peso: '6,9 kg', categoria: 'Semilla', tipo: 'Planta',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Bulbasur',id: '1', altura: '0,7m', peso: '6,9 kg', categoria: 'Semilla', tipo: 'Planta',
+        debilidades: ['Fuego', 'Volador']
       },
       { imagen: "assets/pokemons/Ivysaur.png", descripcionImg: "Ivysaur img",
-        nombre: 'Ivysaur', altura: '1,0m', peso: '13,0 kg', categoria: 'Semilla', tipo: 'Planta',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Ivysaur', id: '2', altura: '1,0m', peso: '13,0 kg', categoria: 'Semilla', tipo: 'Planta',
+        debilidades: ['Fuego', 'Volador']
       },
       { imagen: "assets/pokemons/Venusaur.png", descripcionImg: "Venusaur img",
-        nombre: 'Venusaur', altura: '2,0m', peso: '100,0 kg', categoria: 'Semilla', tipo: 'Planta',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Venusaur', id: '3', altura: '2,0m', peso: '100,0 kg', categoria: 'Semilla', tipo: 'Planta',
+        debilidades: ['Fuego', 'Volador']
       },
       { imagen: "assets/pokemons/Charmander.png", descripcionImg: "Charmander img",
-        nombre: 'Charmander', altura: '0,6m', peso: '8,5 kg', categoria: 'Lagartija', tipo: 'Fuego',
-        debilidades: ['Volador', 'Pisquico', 'Hielo']
+        nombre: 'Charmander', id: '4', altura: '0,6m', peso: '8,5 kg', categoria: 'Lagartija', tipo: 'Fuego',
+        debilidades: ['Agua', 'Tierra', 'Roca']
       },
       { imagen: "assets/pokemons/Charmaleon.png", descripcionImg: "Charmaleon img",
-        nombre: 'Charmaleon', altura: '1,1m', peso: '19,0 kg', categoria: 'LLama', tipo: 'Fuego',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Charmaleon', id: '5', altura: '1,1m', peso: '19,0 kg', categoria: 'LLama', tipo: 'Fuego',
+        debilidades: ['Agua', 'Tierra', 'Roca']
       },
       { imagen: "assets/pokemons/Charizard.png", descripcionImg: "Charizard img",
-        nombre: 'Charizard', altura: '1,7m', peso: '90,5 kg', categoria: 'LLama', tipo: 'Fuego',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Charizard', id: '6', altura: '1,7m', peso: '90,5 kg', categoria: 'LLama', tipo: 'Fuego',
+        debilidades: ['Agua', 'Eléctrico', 'Roca']
       },
       { imagen: "assets/pokemons/Squirtle.png", descripcionImg: "Squirtle img",
-        nombre: 'Squirtle', altura: '0,5m', peso: '9,0 kg', categoria: 'Tortuguita', tipo: 'Agua',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Squirtle', id: '7', altura: '0,5m', peso: '9,0 kg', categoria: 'Tortuguita', tipo: 'Agua',
+        debilidades: ['Planta','Eléctrico']
       },
       { imagen: "assets/pokemons/Wartortle.png", descripcionImg: "Wartortle img",
-        nombre: 'Wartortle', altura: '1,0m', peso: '22,5 kg', categoria: 'Tortuga', tipo: 'Agua',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Wartortle', id: '8', altura: '1,0m', peso: '22,5 kg', categoria: 'Tortuga', tipo: 'Agua',
+        debilidades: ['Planta','Eléctrico']
       },
       { imagen: "assets/pokemons/Blastoise.png", descripcionImg: "Blastoise img",
-        nombre: 'Blastoise', altura: '1,6m', peso: '85,5 kg', categoria: 'Armazón', tipo: 'Agua',
-        debilidades: ['Fuego', 'Volador', 'Pisquico', 'Hielo']
+        nombre: 'Blastoise', id: '9', altura: '1,6m', peso: '85,5 kg', categoria: 'Armazón', tipo: 'Agua',
+        debilidades: ['Planta','Eléctrico']
       },
     ];
-    const debilidadesPlanta = {
-      Fuego: {
-        'background': 'red',
-      },
-      Volador: {
-        'background': 'white',
-      },
-    };
+    
     /*------Array de Pokemons------*/
 
     /*------Array para elegir el color de las cards------*/
@@ -87,7 +81,6 @@ export class PokemonsComponent {
           'border': '2px solid rgba(255, 255, 255, 0.4)'
         };
         
-        this.pokemons[i].debilidades = Object.keys(debilidadesPlanta);
 
       }else if (this.pokemons[i].tipo === 'Fuego') {
         cartaPedeterminada = {
