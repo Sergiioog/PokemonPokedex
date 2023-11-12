@@ -1,8 +1,14 @@
 <div class="cardPokemon">
     <div class="pokeCard" *ngFor="let pokemon of pokemons; let i = index" [ngStyle]="cartasPoke[i]">
-      <div class="imgCabecera">
-        <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
+      <div id="cab">
+        <div class="imgCabecera">
+          <img class="imagenPok" src="{{pokemon.imagen}}" alt="{{pokemon.descripcionImg}}">
+        </div>
+        <div class="idDiv">
+          <p>{{pokemon.id}}</p>
+        </div>
       </div>
+     
       <div class="cuerpoTarjeta">
         <div id="tituloDiv">
           <h1>{{pokemon.nombre}}</h1>
