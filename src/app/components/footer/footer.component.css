@@ -116,74 +116,23 @@ footer {
 }
 /*------MEDIA QUERYS PARA DISEÑO RESPONSIVE-----*/
 @media screen and (min-width: 425px) and (max-width: 768px) {
- 
-    #circuloNegro {
-        height: 100%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     #circNegro {
-        background-color: #012a24;
-        height:60px;
-        width:60px;
         margin-top: 5px;
-        border-radius: 50%;
-        border: solid black 2px;
     }
-  
-   
     #botonRojoDiv {
-        background-color: red;
         height: 11px;
         width: 35%;
-        margin-right: 10px;
-        border: solid black 2px;
-        border-radius: 100px;
     }
     #botonAzulDiv {
-        background-color: rgb(47, 0, 255);
         height: 11px;
         width: 35%;
-        border: solid black 2px;
-        border-radius: 100px;
     }
-    #panelVerde {
-    
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #cruzDiv {
-        height: 100%; 
-        width: 30%; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        
-    }
-    
-  
-    
-    
     #flecha::before {
         width: 50%;
-        height: 25%;
-        top: 40%;
         left: 22%;
-        border: 2px solid black;
     }
-    
     #flecha::after {
         width: 15%;
-        height: 65%;
-        top: 20%;
-        left: 40%;
-        border: 2px solid black;
     }
 
     
@@ -201,60 +150,18 @@ footer {
         justify-content: end;
         align-items: center;
     }
-    #circNegro {
-        background-color: #012a24;
-        height:60px;
-        width:60px;
-        margin-top: 5px;
-        border-radius: 50%;
-        border: solid black 2px;
-        
-    }
-   
-  
     #botonRojoDiv {
-        background-color: red;
         height: 12px;
         width: 30%;
-        margin-right: 10px;
-        border: solid black 2px;
-        border-radius: 100px;
     }
     #botonAzulDiv {
-        background-color: rgb(47, 0, 255);
         height: 12px;
         width: 30%;
-        border: solid black 2px;
-        border-radius: 100px;
     }
-    #panelVerde {
-    
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
- 
-    #cruzDiv {
-        height: 100%; 
-        width: 30%; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        position: relative;
-    }
-    
-  
-    
-    
     #flecha::before {
         width: 35%;
-        height: 25%;
-        top: 40%;
         left: 22%;
-        border: 2px solid black;
     }
-    
     #flecha::after {
         width: 10%;
         height: 65%;
@@ -267,65 +174,22 @@ footer {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-   
-    #circuloNegro {
-        height: 100%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
     #circNegro {
         background-color: #012a24;
         height:65px;
         width:65px;
         margin-top: 5px;
         border-radius: 50%;
-        border: solid black 2px;
-        
+        border: solid black 2px;   
     }
-    #panelPrincipal {
-        height: 100%;
-        width: 60%;
-    }
-   
     #botonRojoDiv {
-        background-color: red;
         height: 13px;
         width: 25%;
-        margin-right: 10px;
-        border: solid black 2px;
-        border-radius: 100px;
     }
     #botonAzulDiv {
-        background-color: rgb(47, 0, 255);
         height: 13px;
         width: 25%;
-        border: solid black 2px;
-        border-radius: 100px;
-    }
-    #panelVerde {
-    
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-   
-    #cruzDiv {
-        height: 100%; 
-        width: 30%; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        position: relative;
-    }
-    
- 
-    
+    }    
     #flecha::before {
         width: 25%;
         height: 25%;
@@ -333,7 +197,6 @@ footer {
         left: 25%;
         border: 2px solid black;
     }
-    
     #flecha::after {
         width: 7%;
         height: 65%;
@@ -341,68 +204,21 @@ footer {
         left: 34%;
         border: 2px solid black;
     }
-  
 }
 @media screen and (min-width: 1440px) {
    
-    #circuloNegro {
-        height: 100%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
     #circNegro {
-        background-color: #012a24;
         height:80px;
         width:80px;
-        margin-top: 5px;
-        border-radius: 50%;
-        border: solid black 2px;
-        
     }
-    #panelPrincipal {
-        height: 100%;
-        width: 60%;
-    }
-
     #botonRojoDiv {
-        background-color: red;
         height: 15px;
         width: 22%;
-        margin-right: 10px;
-        border: solid black 2px;
-        border-radius: 100px;
     }
     #botonAzulDiv {
-        background-color: rgb(47, 0, 255);
         height: 15px;
         width: 22%;
-        border: solid black 2px;
-        border-radius: 100px;
-    }
-    #panelVerde {
-    
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #cruzDiv {
-        height: 100%; 
-        width: 30%; 
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        position: relative;
-    }
-    
-
-    
+    }    
     #flecha::before {
         width: 25%;
         height: 25%;
@@ -410,7 +226,6 @@ footer {
         left: 25%;
         border: 2px solid black;
     }
-    
     #flecha::after {
         width: 7%;
         height: 65%;
